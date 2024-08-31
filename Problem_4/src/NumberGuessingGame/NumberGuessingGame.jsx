@@ -37,6 +37,7 @@ const NumberGuessingGame = () => {
     <div className="app-container">
       <div className="game-container">
         <h1 className="title">Guess the Number</h1>
+        <h3>Between 1 to 100</h3>
         <p className="chances-text">You have {chances} {chances === 1 ? 'chance' : 'chances'} left.</p>
         <form onSubmit={handleSubmit} className="game-form">
           <input
