@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #00aaff, #0044cc); /* Blue gradient background */
+  font-family: 'Arial', sans-serif;
+}
